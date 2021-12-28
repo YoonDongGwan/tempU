@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_baseline_person_pin_24.xml" value="0.2984375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/nickname_change.xml" value="0.16770833333333332" />
       </map>
     </option>
   </component>
