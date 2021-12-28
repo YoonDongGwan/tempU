@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_baseline_person_pin_24.xml" value="0.2984375" />
+        <entry key="app/src/main/res/drawable/radius30dpcorner.xml" value="0.17395833333333333" />
+        <entry key="app/src/main/res/drawable/radius4dpcorner.xml" value="0.17395833333333333" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1578125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_nickname_change.xml" value="0.10144927536231885" />
         <entry key="app/src/main/res/layout/nickname_change.xml" value="0.16770833333333332" />
       </map>
     </option>
