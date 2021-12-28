@@ -7,8 +7,12 @@
         <entry key="app/src/main/res/drawable/radius10dpcorner.xml" value="0.23333333333333334" />
         <entry key="app/src/main/res/drawable/radius30dpcorner.xml" value="0.23333333333333334" />
         <entry key="app/src/main/res/drawable/radius4dpcorner.xml" value="0.23333333333333334" />
+        <entry key="app/src/main/res/layout/activity_hall_of_fame.xml" value="0.1322463768115942" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_temp_record.xml" value="0.1322463768115942" />
+        <entry key="app/src/main/res/layout/activity_today_bet.xml" value="0.1322463768115942" />
+        <entry key="app/src/main/res/layout/activity_today_temp.xml" value="0.1322463768115942" />
       </map>
     </option>
   </component>
