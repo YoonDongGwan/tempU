@@ -9,15 +9,17 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="100dp"
-            android:background="@drawable/today_mood02"
-            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/today_mood02"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -49,9 +51,10 @@
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
-                <ImageView
+                <ImageButton
                     android:layout_width="70dp"
                     android:layout_height="70dp"
+                    android:id="@+id/change_photo_btn"
                     android:background="@drawable/ic_baseline_person_pin_24" />
 
                 <LinearLayout
@@ -172,6 +175,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:id="@+id/todayTemp"
             android:layout_weight="1"
             android:padding="10dp"
             app:cardBackgroundColor="#ffffffff"
@@ -203,6 +207,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:id="@+id/todayBet"
             android:layout_weight="1"
             app:cardBackgroundColor="#ffffffff"
             app:cardCornerRadius="10dp"
@@ -244,6 +249,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:id="@+id/tempRecord"
             android:layout_weight="1"
             app:cardBackgroundColor="#ffffffff"
             app:cardCornerRadius="10dp"
@@ -274,6 +280,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:id="@+id/hallOfFame"
             android:layout_weight="1"
             app:cardBackgroundColor="#ffffffff"
             app:cardCornerRadius="10dp"

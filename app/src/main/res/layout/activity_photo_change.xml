@@ -5,51 +5,38 @@
     android:orientation="vertical"
     android:background="@color/white"
     android:padding="10dp"
->
+    >
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="변경할 닉네임을"
-        android:textColor="@color/black"
-        android:paddingTop="20dp"
-        android:paddingLeft="10dp"
-        android:textSize="25sp"
-        android:textStyle="bold"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="입력해주세요"
-        android:textColor="@color/black"
-        android:paddingTop="10dp"
-        android:paddingLeft="10dp"
-        android:textSize="25sp"
-        android:textStyle="bold"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:hint="   8글자 이내"
-        android:textColor="@color/black"
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
         android:backgroundTint="#808080"
-        android:textSize="20sp"/>
-
-
+        android:background="@drawable/ic_baseline_person_pin_24"
+        />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="뒤로가기"
-        android:textSize="18sp"
-        android:padding="10dp"
-        android:backgroundTint="#22808080"
-        android:textColor="@color/black"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="30dp"
+        android:backgroundTint="#22808080"
+        android:padding="10dp"
+        android:text="사진찾기"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사진삭제"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:backgroundTint="#ffffc500"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:textStyle="bold"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
