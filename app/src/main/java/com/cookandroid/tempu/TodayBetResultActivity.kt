@@ -1,5 +1,6 @@
 package com.cookandroid.tempu
 
+import android.content.Intent.FLAG_ACTIVITY_CLEAR_TOP
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -29,7 +30,6 @@ class TodayBetResultActivity : AppCompatActivity() {
                 finish()
             }
             R.id.today_bet_home ->{
-
             }
         }
     }
