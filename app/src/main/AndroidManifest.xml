@@ -21,6 +21,7 @@
         <activity android:name=".NicknameChangePopup" android:theme="@android:style/Theme.Holo.Dialog.NoActionBar"></activity>
         <activity android:name=".ChangePhotoPopup" android:theme="@android:style/Theme.Holo.Dialog.NoActionBar"></activity>
         <activity android:name=".MainActivity" />
+        <activity android:name=".TodayBetResultActivity"/>
         <activity android:name=".HallOfFameActivity" />
         <activity android:name=".TempRecordActivity" />
         <activity android:name=".TodayBetActivity" />
