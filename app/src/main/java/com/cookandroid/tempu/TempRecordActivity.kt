@@ -24,6 +24,8 @@ class TempRecordActivity : AppCompatActivity() {
         }
         calendar = Calendar.getInstance()
 
+
+
         makeCalendar()
         var adapter = ArrayAdapter.createFromResource(this, R.array.calendar2022, R.layout.support_simple_spinner_dropdown_item)
         calendarSpinner.adapter = adapter
@@ -36,6 +38,7 @@ class TempRecordActivity : AppCompatActivity() {
             tempRecordMonth.text = selectedDateString + "월"
             calendar.set(Calendar.MONTH, selectedDateInt - 1)
             makeCalendar()
+
         }
 
         override fun onNothingSelected(p0: AdapterView<*>?) {
@@ -74,4 +77,6 @@ class TempRecordActivity : AppCompatActivity() {
     private fun makeTail(list: ArrayList<String>){
         for(i in 1..49 - list.size) list.add("")
     }
+
+
 }

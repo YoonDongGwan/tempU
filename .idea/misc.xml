@@ -7,10 +7,12 @@
         <entry key="app/src/main/res/drawable/border.xml" value="0.2984375" />
         <entry key="app/src/main/res/drawable/calendar_item_border.xml" value="0.18645833333333334" />
         <entry key="app/src/main/res/drawable/edit_border.xml" value="0.18645833333333334" />
+        <entry key="app/src/main/res/drawable/grey_border.xml" value="0.375" />
         <entry key="app/src/main/res/drawable/radius10dpcorner.xml" value="0.23333333333333334" />
         <entry key="app/src/main/res/drawable/radius30dpcorner.xml" value="0.23333333333333334" />
         <entry key="app/src/main/res/drawable/radius4dpcorner.xml" value="0.23333333333333334" />
-        <entry key="app/src/main/res/layout/activity_hall_of_fame.xml" value="0.1322463768115942" />
+        <entry key="app/src/main/res/drawable/underline.xml" value="0.15052083333333333" />
+        <entry key="app/src/main/res/layout/activity_hall_of_fame.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_temp_record.xml" value="0.25" />
