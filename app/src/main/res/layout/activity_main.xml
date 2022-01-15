@@ -94,7 +94,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="오늘의 기분"
-                            android:textColor="#ffffd500"
+                            android:textColor="@color/appColor"
                             android:textSize="18sp"
                             android:textStyle="bold" />
 

@@ -10,7 +10,7 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_today_bet.*
 import kotlinx.android.synthetic.main.activity_today_temp.*
 import kotlinx.android.synthetic.main.activity_today_temp.edit_temp
-import kotlinx.android.synthetic.main.activity_today_temp.progressBar
+import kotlinx.android.synthetic.main.activity_today_temp.today_temp_progressBar
 import java.text.SimpleDateFormat
 import java.util.*
 
